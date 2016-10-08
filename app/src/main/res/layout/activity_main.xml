@@ -43,4 +43,22 @@
         android:layout_alignRight="@+id/bmapView"
         android:layout_alignEnd="@+id/bmapView"
         android:layout_below="@+id/bmapView"/>
+    <Button
+        android:id="@+id/btn_add_overlay"
+        android:text="添加覆盖物"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/bmapView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="452dp"/>
+    <Button
+        android:id="@+id/btn_cur_place"
+        android:text="我的位置"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/bmapView"
+        android:layout_alignEnd="@+id/bmapView"
+        android:layout_alignBottom="@+id/btn_add_overlay"/>
 </RelativeLayout>
